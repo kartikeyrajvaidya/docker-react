@@ -5,7 +5,7 @@ services:
 
 
 before_install:
-  - docker build -t kartikey/docker-react -f Dockefile.dev .
+  - docker build -t kartikey/docker-react -f Dockerfile.dev .
 
 
 
